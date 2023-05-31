@@ -14,7 +14,7 @@ function Tweet(props) {
 
       <div className="body">
         <div className="top">
-          <User user={(name, handle)} />
+          <User user={{ name, handle }} />
           <Timestamp timestamp={timestamp} />
         </div>
 
